@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Popoisthebest/flood-prevention-app/static/css/main.45b722b3.css",
+    "main.js": "/Popoisthebest/flood-prevention-app/static/js/main.a86ba741.js",
+    "index.html": "/Popoisthebest/flood-prevention-app/index.html",
+    "main.45b722b3.css.map": "/Popoisthebest/flood-prevention-app/static/css/main.45b722b3.css.map",
+    "main.a86ba741.js.map": "/Popoisthebest/flood-prevention-app/static/js/main.a86ba741.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45b722b3.css",
+    "static/js/main.a86ba741.js"
+  ]
+}
