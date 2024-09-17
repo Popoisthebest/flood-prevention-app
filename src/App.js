@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
-import { FaHome } from 'react-icons/fa';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import FloodCases from './FloodCases';
 import FloodZones from './FloodZones';
 import FloodProbability from './FloodProbability';
@@ -8,7 +7,7 @@ import ShelterMap from './ShelterMap';
 
 function Home() {
   return (
-    <div className="container">
+    <div>
       <h2>메인 화면</h2>
       <nav>
         <ul>
@@ -41,32 +40,17 @@ function Home() {
 function App() {
   return (
     <Router>
-      <AppContent />
-    </Router>
-  );
-}
-
-function AppContent() {
-  const location = useLocation();
-
-  return (
-    <div>
-      <header>
-        {location.pathname !== '/' && (
-          <Link to="/" className="home-icon">
-            <FaHome size={30} />
-          </Link>
-        )}
+      <div>
         <h1>Flood Prevention App</h1>
-      </header>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/flood-cases" element={<FloodCases />} />
-        <Route path="/flood-zones" element={<FloodZones />} />
-        <Route path="/flood-probability" element={<FloodProbability />} />
-        <Route path="/shelters" element={<ShelterMap />} />
-      </Routes>
-    </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/flood-cases" element={<FloodCases />} />
+          <Route path="/flood-zones" element={<FloodZones />} />
+          <Route path="/flood-probability" element={<FloodProbability />} />
+          <Route path="/shelters" element={<ShelterMap />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
