@@ -14,12 +14,12 @@ function Home() {
         <ul>
           <li>
             <Link to="/flood-cases">
-              <button>홍수 피해 사례 및 예방 방법</button>
+              <button>홍수로 인한 피해별 예방책</button>
             </Link>
           </li>
           <li>
             <Link to="/flood-zones">
-              <button>홍수 다수 발생 지역</button>
+              <button>홍수 다수 발생 지역 및 특징</button>
             </Link>
           </li>
           <li>
@@ -57,7 +57,7 @@ function AppContent() {
             <FaHome size={30} />
           </Link>
         )}
-        <h1>Flood Prevention App</h1>
+        <h1>홍수 알림이</h1>
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -66,6 +66,7 @@ function AppContent() {
         <Route path="/flood-probability" element={<FloodProbability />} />
         <Route path="/shelters" element={<ShelterMap />} />
       </Routes>
+      <h5>Made by 김재민</h5>
     </div>
   );
 }

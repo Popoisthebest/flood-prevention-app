@@ -118,3 +118,188 @@ h1 {
   margin: 0;
   font-size: 24px;
 }
+
+/* 페이지 전체 패딩을 통해 텍스트가 가장자리에 너무 붙지 않게 설정 */
+.page-content {
+  padding: 20px 40px; /* 양쪽에 40px 패딩 추가 */
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #555; /* 테이블 배경을 어두운색으로 */
+  color: #f7f7f7; /* 텍스트는 밝게 */
+  border-radius: 10px; /* 부드러운 모서리 */
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #666; /* 셀 구분을 위한 경계 */
+}
+
+table th {
+  background-color: #444; /* 테이블 헤더는 더 어두운색 */
+  color: #f7f7f7;
+}
+
+table tr:hover {
+  background-color: #666; /* 행에 마우스를 올렸을 때 색상 변화 */
+}
+
+/* 리스트 스타일 */
+ul {
+  list-style-type: disc;
+  margin: 20px 0;
+  padding-left: 40px; /* 리스트의 왼쪽 여백을 주어 내용 정렬 */
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #cccccc;
+}
+
+/* 제목에 여백과 패딩 추가 */
+h3 {
+  padding: 0 40px; /* 좌우 패딩 추가 */
+  font-size: 1.6em;
+  color: #f7f7f7;
+  border-bottom: 2px solid #555; /* 하단 경계선으로 구분 */
+  padding-bottom: 10px;
+}
+
+/* 추가적인 본문 텍스트 스타일 */
+p {
+  padding: 0 40px; /* 본문 텍스트에도 좌우 패딩 추가 */
+}
+
+/* 페이지 전체 컨테이너 스타일 */
+.flood-zones-container {
+  padding: 20px 60px;
+  background-color: #444;
+  color: #f7f7f7;
+}
+
+/* 개별 홍수 지역 블록 */
+.flood-zone {
+  background-color: #333;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 지역 제목 스타일 */
+.flood-zone h3 {
+  color: #f0f0f0;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* 본문 텍스트 스타일 */
+.flood-zone p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+/* 이미지 컨테이너 스타일 */
+.flood-images {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.flood-images img {
+  width: 48%; /* 이미지 두 장을 나란히 배치, 각 48% 너비 */
+  border-radius: 8px; /* 모서리 둥글게 처리 */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 이미지에 그림자 추가 */
+}
+
+/* 링크 스타일 */
+.flood-zone a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.flood-zone a:hover {
+  text-decoration: underline;
+}
+
+/* 페이지 전체 컨테이너에 패딩 추가 */
+.flood-cases-container {
+  padding: 20px 60px; /* 좌우 60px, 상하 20px 패딩 */
+  background-color: #444;
+  color: #f7f7f7;
+}
+
+/* 제목 스타일 */
+.flood-cases-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #f0f0f0;
+}
+
+.flood-cases-container h3 {
+  margin-top: 30px; /* 상단에 여백 추가 */
+  margin-bottom: 10px; /* 제목과 내용 사이에 여백 */
+  font-size: 1.6em;
+  color: #f7f7f7;
+  border-bottom: 2px solid #555; /* 하단 경계선 */
+  padding-bottom: 10px;
+}
+
+/* 표 스타일 */
+.flood-cases-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px; /* 표와 다른 요소 사이 여백 */
+  background-color: #555;
+  color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.flood-cases-container th, .flood-cases-container td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #666;
+}
+
+.flood-cases-container th {
+  background-color: #444;
+  color: #f7f7f7;
+}
+
+.flood-cases-container tr:hover {
+  background-color: #666;
+}
+
+/* 리스트 스타일 */
+.flood-cases-container ul {
+  list-style-type: disc;
+  margin: 20px 0;
+  padding-left: 40px; /* 리스트 왼쪽 여백 */
+}
+
+.flood-cases-container ul li {
+  margin-bottom: 10px; /* 리스트 항목 사이 간격 */
+  font-size: 18px;
+  color: #cccccc;
+}
+
+/* 본문 텍스트 */
+.flood-cases-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+h5 {
+  text-align: end;
+  padding-right: 20px;
+}
