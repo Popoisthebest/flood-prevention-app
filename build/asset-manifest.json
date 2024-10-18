@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/floodalter/static/css/main.7c71febd.css",
+    "main.js": "/floodalter/static/js/main.4b3cc587.js",
+    "index.html": "/floodalter/index.html",
+    "main.7c71febd.css.map": "/floodalter/static/css/main.7c71febd.css.map",
+    "main.4b3cc587.js.map": "/floodalter/static/js/main.4b3cc587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c71febd.css",
+    "static/js/main.4b3cc587.js"
+  ]
+}
